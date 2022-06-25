@@ -9,7 +9,7 @@ if (process.argv.length < 3) {
     console.error(`Missing correct pathname to test`);
     process.exit(1);
 }
-
+dd
 const importedAdapter = path.resolve(__dirname, process.argv[2]);
 const tester = async () => {
     const AdapterClass = require(importedAdapter);
